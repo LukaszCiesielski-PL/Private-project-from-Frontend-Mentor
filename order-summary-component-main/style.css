@@ -26,7 +26,6 @@ body{
     font-weight: 900;
     font-size: 22px;
     line-height: 29px;
-    text-align: center;
     color: #1F2E55;
 }
 .lorem_ipsum{
@@ -51,6 +50,11 @@ body{
     bottom: 26.46%;
     background: #F7F9FF;
     border-radius: 11px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .btn_pay{
@@ -92,6 +96,9 @@ img{
     
 }
 
-.attribution{
-    
+a{
+    font-weight: 900;
+    color: hsl(245, 75%, 52%);
+    margin-left: 25px;
 }
+
