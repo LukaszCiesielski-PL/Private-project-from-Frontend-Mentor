@@ -1,70 +1,97 @@
 body{
-    margin: 5px;
+    margin: 0px;
     background-color: hsl(225, 100%, 94%);
-    
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 .conteiner{
-    position: relative;
-    width: 400px;
-    height: 580px;
-    font-family: 'Red Hat Display';
-    font-weight: 500;
-    font-size: 16px;
+    position: absolute;
+    width: 327px;
+    height: 567px;
+    top: 10%;
     text-align: center;
+    font-family: 'Red Hat Display';
     border-radius: 20px;
-    background-color:hsl(225, 100%, 98%);
+    background-color:#FFF;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
 }
-.text{
-    width: 350px;
-    height: auto;
-    margin-left: 30px;
-    margin-right: 30px;
+.order_summary{
+    position: absolute;
+    height: 29px;
+    left: 9.79%;
+    right: 9.79%;
+    top: calc(50% - 29px/2 - 77px);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #1F2E55;
+}
+.lorem_ipsum{
+    position: absolute;
+    height: 75px;
+    left: 9.79%;
+    right: 9.79%;
+    top: calc(50% - 75px/2 - 9px);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #717FA6;
 }
 
 .change{
-    height: 78px;
-    border-radius: 10px;
-    margin-left: 35px;
-    margin-right: 35px;
-    background-color: hsla(219, 41%, 92%, 0.562);
+    position: absolute;
+    left: 7.34%;
+    right: 7.34%;
+    top: 59.26%;
+    bottom: 26.46%;
+    background: #F7F9FF;
+    border-radius: 11px;
 }
 
 .btn_pay{
+    position: absolute;
+    left: 7.34%;
+    right: 7.34%;
+    top: 77.78%;
+    bottom: 13.4%;
     color: hsl(225, 100%, 98%);
-    font-size: 12px;
-    font-weight: 700;
-    margin-left: 35px;
-    margin-right: 35px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    padding-top: 13px;
-    padding-bottom: 13px;
     border-radius: 10px;
-    box-shadow: 0px 30px 30px -17px hsl(245, 75%, 52%);
+    box-shadow: 0px 30px 30px -17px hsl(245, 51%, 65%);
     background-color: hsl(245, 75%, 52%);
+}
+.btn_pay > p{
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+}
+.btn_pay:hover{
+    background-color: #766CF1;
 }
 
 .btn_cancel_pay{
-    margin-top: 30px;
+    position: absolute;
+    height: 20px;
+    left: 30%;
+    right: 30%;
+    top: calc(50% - 20px/2 + 241.5px);
     font-weight: 900;
     color: hsl(224, 23%, 55%);
 }
-
-.attribution{
-    margin-top: 20px;
+.btn_cancel_pay:hover{
+    color: #1F2E55;
 }
+
 img{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     
 }
-h2{
-   font-weight: 900; 
-   color: hsl(223, 47%, 23%);
-}
-p{
-    font-weight: 500;
-    color: hsl(224, 23%, 55%);
-}
 
-/* change to flexbox/grid */
+.attribution{
+    
+}
