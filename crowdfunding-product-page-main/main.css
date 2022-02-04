@@ -1,0 +1,84 @@
+main{
+    position: fixed;
+    top: 310px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    text-align: center;
+    width: 730px;
+}
+
+.top_section{
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding-bottom: 26px;
+    margin-bottom: 100px;
+}
+.mastercraft{
+    position: relative;
+    top: -46px;
+    margin-bottom: 0px;
+}
+.text{
+    position: relative;
+    top: -0px;
+}
+.text > h2{
+    line-height: 34px;
+    margin-top: 0px;
+    font-size: 28px;
+}
+.text > p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #7A7A7A;
+}
+
+.btn{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin-top: 48px;
+}
+.btn_top_section{
+    width: 204px;
+    height: 56px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    background-color: #147A73;
+    border-radius: 33.5px;
+    border: none;
+    justify-self: start;
+}
+.btn_top_section_bookmark{
+    width: 174px;
+    height: 56px;
+    color: #7A7A7A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    background: #f2f2f2;
+    border-radius: 33.5px;
+    display:grid;
+    grid-template-columns:35% 65%;
+    justify-self: end;
+    justify-items: center;
+    align-items: center;
+    border: none;
+    
+}
+/*
+.middle_section{
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+.bottom_section{
+    background-color: #fff;
+    border-radius: 10px;
+    
+}

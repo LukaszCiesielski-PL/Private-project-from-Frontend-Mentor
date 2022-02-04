@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-color: #F2F2F2;
+    display: grid;
+    justify-items: center;
+}
+.header{
+    background-image: url("images/image-hero-desktop.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;	
+    height: 400px;
+    width: auto; 
+    display: grid;
+    justify-content: center;
+}
+
+.navbar{
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.0001) 100%);
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    height: 128px;
+    width:1440px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.logo{
+    display: grid;
+    grid-template-columns: 50% ;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    display: inline-grid;
+    grid-template-columns:13% 13% 30%;
+    justify-content: end;
+    align-items: center;
+    
+}
+.nav > a{
+    text-decoration: none;
+    color: #fff;
+}
