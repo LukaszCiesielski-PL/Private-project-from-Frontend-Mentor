@@ -63,9 +63,11 @@ main{
     font-weight: bold;
     background: #f2f2f2;
     border-radius: 33.5px;
+    padding-left: 0px;
     display:grid;
     grid-template-columns:35% 65%;
     justify-self: end;
+    
     justify-items: center;
     align-items: center;
     border: none;
