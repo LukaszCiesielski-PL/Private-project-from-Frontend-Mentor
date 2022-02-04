@@ -1,7 +1,9 @@
 # Frontend Mentor - Order summary card
+---------------------------------------------------------------------------------------------------------------------
+GitHub Pages https://lukaszciesielski-pl.github.io/Private-project-from-Frontend-Mentor/order-summary-component-main/
+---------------------------------------------------------------------------------------------------------------------
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
-
 
 ## The challenge
 
